@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
+
+.header {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.top-logo {
+    margin: 5px;
+    float: left;
+}
+
+.navbar {
+    float: right;
+    background-color: rgb(74, 130, 98);
+    width: 100%;
+}
+
+.navbar-ul {
+    display: flex;
+    margin: 21px;
+    padding: 0px;
+    list-style-type: none;
+    float: right;
+}
+
+.navbar-ul li{
+    margin: 6px;
+    margin-right: 10px;
+}
+
+.navbar-ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(132, 250, 6);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar-ul li a:hover {
+    text-decoration: underline;
+    color: #ffff;
+    transition: ease-in-out .2s;
+}
